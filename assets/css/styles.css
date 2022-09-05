@@ -519,6 +519,7 @@ body.light-theme {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   line-height: 18px;
+  white-space: nowrap;
 }
 
 .skills__level {
@@ -662,6 +663,9 @@ body.light-theme {
 .work__img {
   border-radius: 1rem;
   margin-top: .75rem;
+  aspect-ratio: 295/194;
+  object-fit: cover;
+  object-position: top left;
 }
 
 .work__title {
